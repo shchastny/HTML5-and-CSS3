@@ -1,0 +1,204 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.first-letter p::first-letter {
+    font-size: 35px;
+    font-family: cursive;
+}
+.img-cat {
+    float: left;
+    margin-right: 30px;
+}
+
+a {
+    color: #00adee;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: #003357;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+    text-transform: uppercase;
+}
+
+.header {
+    height: 120px;
+    border-bottom: 1px solid #7d827d;
+    background-image: url(img/header-img.png);
+}
+
+.menu {
+    width: 400px;
+    margin: 40px 0px 10px 0px;
+    float: right;
+}
+
+.menu a {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+}
+
+.menu a:hover {
+    color: #ff2400;
+}
+
+.menu li {
+    list-style-type: none;
+    float: left;
+    margin-left: 20px;
+}
+
+.brief-text {
+    color: #707070;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.long-text {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.property {
+    list-style-image: url(img/marker.png);
+    line-height: 28px;
+    letter-spacing: 5px;
+}
+
+form {
+    border: 3px inset #00adee;
+    padding: 10px 10px;
+    width: 250px;
+    height: auto;
+}
+
+form input {
+    margin-bottom: 7px;
+}
+
+form input[type="text"] {
+    font-size: 20px;
+    color: #fff;
+    width: 200px;
+    height: 30px;
+}
+
+form input[type="text"]:required {
+    background-color: #059bff;
+}
+
+form input[type="text"]:invalid {
+    background-color: beige;
+}
+
+.cat-element {
+    float: left;
+    margin-left: 30px;
+}
+
+input[value="Купить"] {
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+}
+
+input[value="Купить"]:hover {
+    background-color: #00658a;
+    color: #fff;
+}
+
+input[value="Купить"]:active {
+    background-color: #8ae0ff;
+}
+
+.tech-param-cont {
+    clear: both;
+}
+
+.photo {
+    outline: 3px inset #00adee;
+}
+
+.photo:hover {
+    outline: none;
+}
+
+.logo {
+    width: 100px;
+    height: 94px;
+    float: left;
+    margin: 10px 30px 10px 10px
+}
+
+.logo img {
+    height: 100%;
+    width: auto;
+}
+
+.footer {
+    height: 60px;
+    border-top: 1px solid #7d827d;
+    margin-top: 15px;
+    text-align: right;
+    padding: 15px 15px;
+    background-color: #ababab;
+    clear: both;
+}
+
+.photo {
+    float: left;
+    margin: 0px 15px 15px 0px;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.tech-param {
+    width: 180px;
+    border-collapse: collapse;
+}
+
+.tech-param td {
+    border: 2px solid #00658a;
+    height: 45px;
+}
+
+.tech-param tr:first-child {
+    height: 75px;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+.tech-param td:first-child {
+    background-color: #fff;
+    text-align: center;
+}
+
+
+.true-param {
+    background-color: #8ae0ff;
+}
