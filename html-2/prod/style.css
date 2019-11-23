@@ -1,0 +1,466 @@
+@font-face {
+    font-family: "Socialico";
+    src: url("font/Socialico.eot?") format("eot"), url("font/Socialico.woff") format("woff"), url("font/Socialico.ttf") format("truetype"), url("font/Socialico.svg#Socialico") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.img-header {
+    width: 100%;
+}
+
+
+
+header {
+    padding: 50px 50px;
+    background-color: #445161;
+}
+
+
+
+.header-content ul {
+    object-fit: contain;
+    text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.3);
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: left;
+    color: #ffffff;
+    list-style-image: url(img/icon/check-icon.png);
+    margin: 0px 0px;
+}
+
+.header-content h1 {
+    text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.3);
+    font-weight: normal;
+    line-height: 44px;
+    margin: 0px 0px 50px 0px;
+    font-family: Arial;
+    font-size: 59px;
+    text-align: left;
+    color: #ffffff;
+}
+
+h2 {
+    object-fit: contain;
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: left;
+    color: #445161;
+    margin: 0px 0px 30px 0px;
+    font-weight: normal;
+}
+
+p {
+    object-fit: contain;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: left;
+    color: #333333;
+    margin: 0px 0px 20px 0px;
+}
+
+@media (min-width: 1280px) {
+    .about-product {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 50px;
+    }
+
+    .about-product-content img {
+        width: 430px;
+        height: 245px;
+    }
+}
+
+.about-product-content {
+    width: 655px;
+}
+
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pluses-product {
+    background-color: #F5F5F5;
+    padding: 50px 50px 16px;
+}
+
+.pluses-product h2 {
+    text-align: center;
+}
+
+.pluses-product-left {
+    width: 567px;
+    float: left;
+}
+
+.pluses-product-right {
+    width: 567px;
+    float: right;
+}
+
+.plus {
+    width: 32px;
+    height: 32px;
+    background-color: #445161;
+    background-image: url(img/icon/plus.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    float: left;
+    margin-right: 8px;
+}
+
+.pluses-product-item {
+    float: left;
+}
+
+.pluses-product-item p {
+    float: left;
+    width: 527px;
+    margin: 0px 0px 34px;
+}
+
+.scrinshots {
+    padding: 50px 50px 16px;
+}
+
+.scrinshots h2 {
+    text-align: center;
+}
+
+.scrinshots-left {
+    float: left;
+    width: 584px;
+}
+
+.scrinshots-right {
+    float: right;
+    width: 584px;
+}
+
+.scrinshots figure {
+    margin: 0px 0px 29px;
+
+}
+
+.scrinshots figure img {
+    float: left;
+    margin-right: 15px;
+}
+
+.scrinshots figcaption {
+    width: 360px;
+    float: left;
+}
+
+.scrinshots h3 {
+    margin: 0px 0px 15px;
+    object-fit: contain;
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 1.25;
+    text-align: left;
+    color: #445161;
+    font-weight: normal;
+}
+
+.reviews {
+    padding: 50px 50px 26px;
+    background-color: #F5F5F5;
+}
+
+.reviews h2 {
+    text-align: center;
+}
+
+.reviews-text {
+    object-fit: contain;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.29;
+    text-align: left;
+    color: #333333;
+
+}
+
+.reviews-author {
+    object-fit: contain;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: left;
+    color: #989898;
+    margin-bottom: 0px;
+}
+
+.reviews-left {
+    float: left;
+}
+
+.reviews-right {
+    float: right;
+}
+
+.reviews img {
+    float: left;
+    margin-right: 25px;
+}
+
+.reviews-content {
+    background-color: #EBEBEB;
+    width: 474px;
+    float: left;
+    position: relative;
+    padding: 16px 20px;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.reviews-content:before {
+    content: '';
+    top: 25px;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -25px;
+    margin: auto;
+    position: absolute;
+    border-color: transparent #EBEBEB transparent transparent;
+    border-style: solid;
+    border-width: 14px;
+}
+
+.buy-board {
+    padding: 50px 145px 50px;
+}
+
+
+
+.buy-board h2 {
+    text-align: center;
+}
+
+.buy h2 {
+    text-align: center;
+}
+
+.buy-element {
+    width: 300px;
+    padding: 20px 2px 60px 2px;
+    box-sizing: border-box;
+    background-color: #475161;
+    border-radius: 6px;
+    position: relative;
+    float: left;
+}
+
+.buy-element h3 {
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0px 0px 16px;
+    font-weight: normal;
+}
+
+.buy-element ol {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: left;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.price {
+    font-family: Arial;
+    font-size: 40px;
+    line-height: 1.8;
+    text-align: center;
+    color: #445162;
+    background-color: #fff;
+}
+
+.bay-button {
+    width: 260px;
+    height: 40px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: left;
+    color: #445161;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    border: none;
+    margin: 0px auto;
+    position: absolute;
+    bottom: 20px;
+    left: 20px
+}
+
+.contacts {
+    padding: 50px 249px;
+    background-color: #475161;
+}
+
+/*form {
+    width: 500px;
+    float: left;
+    margin-right: 46px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}*/
+
+form input {
+    border: none;
+    border-radius: 6px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    color: #445162;
+    margin-bottom: 21px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.message {
+    border: none;
+    border-radius: 6px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    color: #445162;
+    margin-bottom: 21px;
+    padding: 13px 10px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+
+.social a {
+    font-family: "Socialico";
+    font-size: 55px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.send-button {
+    width: 140px;
+    height: 40px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: left;
+    color: #445161;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    border: none;
+}
+
+.contacts-comun {
+    float: left;
+}
+
+.contacts-comun a {
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+    float: left;
+}
+
+.contacts-item {
+    margin-bottom: 18px;
+}
+
+.contacts-item img {
+    margin-right: 5px;
+    float: left;
+}
+
+.social {
+    float: left;
+}
+
+footer h2 {
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+    color: #ffffff;
+}
+
+.copyright {
+    background-color: #F5F5F5;
+    font-family: Arial;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #445162;
+    padding: 10px 0px 5px;
+
+}
+
+@media (min-width: 1280px) {
+    .container {
+        width: 1280px;
+        padding: 0px;
+    }
+
+    .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .img-header-cont {
+        height: 214px;
+        width: 469px;
+    }
+
+    .buy {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+
+    form {
+        width: 500px;
+        float: left;
+        margin-right: 46px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form input {
+        width: 500px;
+        height: 40px;
+    }
+
+    .message {
+        width: 500px;
+        height: 170px;
+    }
+
+}

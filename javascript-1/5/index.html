@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const request = new XMLHttpRequest(); // про эту штуку можно почитать тут https://learn.javascript.ru/ajax-xmlhttprequest
+    request.open("get", 'http://min-prices.aviasales.ru/calendar_preload?origin=MOW&destination=NCE&one_way=true', false); //конфигурация  запроса
+    request.send(); //отправили запрос
+    let response = JSON.parse( request["responseText"] );
+    //Из объекта request по ключу responseText забрали ответ от aviasales,
+    //после чего преобразовали полученную строку в объект
+    let tickets = response['best_prices'];
+    let autumnTickets = []; // переменная в которую положим билеты подходящие по датам
+    for (ticket of tickets) {
+        if (ticket['depart_date'].indexOf('2019-10') == 0 || ticket['depart_date'].indexOf('2019-11') == 0) {
+            autumnTickets.push(ticket)
+        }
+    }
+    console.log('Все билеты на подходящие даты');
+    console.log(autumnTickets);
+
+    let bestTicket = autumnTickets[0];
+    for (ticket of autumnTickets) {
+        if (ticket['value'] < bestTicket['value']) {
+            bestTicket = ticket;
+        }
+    }
+    console.log('Лучший билет');
+    console.log(bestTicket);
+    document.write("Самый дешевый билет из Москвы в Ницу на осень 2019 стоит " + bestTicket['value'] + ' рублей. Дата вылета: ' + bestTicket['depart_date']);
+</script>
+<p>Открывай консиль, там больше данных.</p>
+</body>
+</html>
